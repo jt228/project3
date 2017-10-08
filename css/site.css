@@ -68,6 +68,8 @@
 
 }
 
+
+/* Style of links in navbar */
 .navbar a {
 	color: black;
 	font-family: 'Josefin Sans', sans-serif;
@@ -79,12 +81,15 @@
 
 }
 
+
+/* Style of links in navbar - Control positioning of text in Navbar */
 .nav-item {
 	padding-left: 35px;
 	padding-right: 35px;
 	padding-top: 24px;
 }
 
+/* Style of links in navbar  -  Style to indicate Hover on Navbar*/
 .nav-item:hover {
 	border-bottom: 2px #5a6c7b solid;
     padding-bottom: 20px;
@@ -92,17 +97,20 @@
 }
 
 
+/* Style of links in navbar  -  Style to indicate Active on Navbar*/
 nav-item:active {
 	border-bottom: 2px #c5d3dd solid;
     padding-bottom: 20px;
     text-decoration: none;
 }
 
+
+/* Style of links in navbar  -  Style to add spacing to Home element*/
 #home {
 	padding-right: 35px;
 }
 
-
+/* Style of links in navbar  -  Account info - for Log In and Bags*/
 .account a {
 	color: black;
 	font-family: 'Josefin Sans', sans-serif;

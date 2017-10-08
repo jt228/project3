@@ -1,10 +1,12 @@
 
-
+/* Navigation Modifications */
+/* Selected Nav element */
 #home:hover {
 	border-bottom: 2px #5a6c7b solid;
     padding-bottom: 13px;
 }
 
+/* Images and spacing for Product details*/
 .product-price{
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -21,13 +23,13 @@
 }
 
 
-
+/* Order form */
+/* Class for all order elements */
 .order-section{
-
 	padding-bottom: 20px;
 }
 
-
+/* Class for spacing order elements*/
 .order-group{
 	padding-bottom: 20px;
 	padding-bottom: 20px;
@@ -35,12 +37,13 @@
 	width:100%;
 }
 
+/* Class for selection width */
 .styled-select{
 	width: 164px;
 	float:right;
 }
 
-
+/* Classes styling inputs */
 .styled-input, .custom-input{
 	border-color: #dfe0e0;
 	height: 40px;
@@ -66,10 +69,12 @@
 
 }
 
+/* Class to style Product Description group */
 .product-specifications-group{
 	margin-bottom: 0px;
 }
 
+/* Class to Style unordered list */
 .product-specifications-list{
 	margin: 0px;
 	list-style-type: circle; 
@@ -77,6 +82,7 @@
 
 }
 
+/* Class to Style unordered list items */
 .product-specifications-list li{
 	padding-left: 15px;
 	list-style-type: circle; 
@@ -84,7 +90,7 @@
 }
 
 
-/* Import IDs */
+/* Important IDs */
 
 #custom-request-section{
 	display: none;

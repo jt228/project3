@@ -1,8 +1,11 @@
+/* Nav elements*/
+/* Make home sleected */
 #home {
 	border-bottom: 2px #c5d3dd solid;
     padding-bottom: 13px;
 }
 
+/* Main should adjust to fill the homepage */
 main {
 	background-image: url("../images/homepage-background.png");
 	width: 100%;
@@ -13,6 +16,7 @@ main {
     padding-bottom: 0px;
 }
 
+/* Overlay background image with image of products */
 #homepage-pillow-overlay{
 	width: 80vw;
 	height: auto;
@@ -21,6 +25,7 @@ main {
     bottom: 0px;
 }
 
+/* Center welcome message and button */
 #homepage-welcome-message{
 	display: inline-block;
 	margin-left: 25%;
