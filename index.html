@@ -2,29 +2,74 @@
 <html>
 	<head>
 		<title>Flip Stitch Pillows - Home</title>
-		<link rel="stylesheet" href="site.css">
 
-		<!--If using jQuery or Javascript-->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 	
+		<link rel="stylesheet" href="site.css" type="text/css">
+		<link rel="stylesheet" href="index.css" type="text/css">
+		<!--Fonts-->
+		<link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre|Josefin+Sans:700,600,500,300,100" rel="stylesheet">
+
+		<!--If using jQuery or Javascript-->	
 		<script src='myscript.js'></script>
 
 	</head>
+
 	<body>
 
-		<div>
-			<a href="index.html">Home</a>
-			<a href="products.html">Products</a>
-			<a href="detail.html">Product Details</a>
+	<!-- This is the navigational section-->
+
+		<div class="navbar">
+			<div class="row nav-elements">
+				<a id="home" href="index.html" >
+					<img id="#logo" src="images/logo.png" >
+				</a>
+				<a class="nav-item" href="products.html" id="products">Our Products</a>
+
+				<a class="nav-item" href="story.html" id="story">Our Story</a>
+
+				<span class="account">
+					<a>bag</a>
+					<a>your account</a>
+				</span>
+			</div>
 		</div>
 
-		<div>
-			<a href="file:///Users/judithtucker/Downloads/2017%20Assignment%203%20-%20PUI.pdf">Assignment</a>
+
+	<!-- This is the main part of the page-->
+		<main>
+
+			<div id="homepage-welcome-message"> 
+				<h1>embrace modernity</h1>
+
+					<a href="products.html"><button>shop now</button></a>
+
+				</div>
+
+
+				<img src="images/pillow-group.png" id="homepage-pillow-overlay">
+			
+		</main>
+
+
+	<!-- This is the footer -->
+		<div class="footer">
+			<div class="col-2">
+				<h6>Shopping</h6>
+				<ul>
+					<li><a href="products.html">Our Products</a></li>
+					<li><a>Your Bag</a></li>
+					<li><a>Your Account</a></li>
+			</div>
+
+			<div class="col-2">
+				<h6>Our COmpany</h6>
+				<ul>
+					<li><a href="story.html">Our Story</a></li>
+					<li><a>Contact</a></li>
+					<li><a>Blog</a></li>
+			</div>
+
 		</div>
-
-		<p>Home</p>
-
-		<p>Are your pillows leaving you flat?</p>
-
+	<!--End of HTML for footer-->
 
 	</body>
 	
