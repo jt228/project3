@@ -1,0 +1,30 @@
+#home {
+	border-bottom: 2px #c5d3dd solid;
+    padding-bottom: 13px;
+}
+
+main {
+	background-image: url("../images/homepage-background.png");
+	width: 100%;
+	margin-right: 0%;
+	margin-left: 0%;
+	background-size: 1500px 700px;
+    background-repeat: no-repeat;
+    padding-bottom: 0px;
+}
+
+#homepage-pillow-overlay{
+	width: 80vw;
+	height: auto;
+	padding-right: 10vw;
+    padding-left: 10vw;
+    bottom: 0px;
+}
+
+#homepage-welcome-message{
+	display: inline-block;
+	margin-left: 25%;
+	margin-right: 25%;
+    width: 50%;
+    text-align: center;
+}
